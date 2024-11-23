@@ -1,0 +1,3747 @@
+{
+    "0_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07061501783900892,
+        "ExtEval": 0.07061501783900892
+    },
+    "0_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0018256436509546115,
+        "ExtEval": 2.0018256436509545
+    },
+    "0_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.13125428241716386,
+        "ExtEval": 0.13125428241716386
+    },
+    "0_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.032716495863860495,
+        "ExtEval": 0.032716495863860495
+    },
+    "0_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.019680074769227396,
+        "ExtEval": 2.0196800747692274
+    },
+    "1_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.02020216001094216,
+        "ExtEval": 1.020202160010942
+    },
+    "1_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.052363145604936656,
+        "ExtEval": 1.0523631456049367
+    },
+    "1_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09040945135574374,
+        "ExtEval": 1.0904094513557436
+    },
+    "1_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.025152005384572684,
+        "ExtEval": 1.0251520053845726
+    },
+    "1_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19323159922431743,
+        "ExtEval": 1.1932315992243174
+    },
+    "1_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.27844386064033544,
+        "ExtEval": 2.278443860640335
+    },
+    "1_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1742589052818302,
+        "ExtEval": 1.1742589052818302
+    },
+    "103_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2614507363695237,
+        "ExtEval": 0.2614507363695237
+    },
+    "103_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19314859041737187,
+        "ExtEval": 2.1931485904173718
+    },
+    "103_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.17549358939545023,
+        "ExtEval": 2.17549358939545
+    },
+    "103_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.020419112584527777,
+        "ExtEval": 2.020419112584528
+    },
+    "103_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.24567863955679864,
+        "ExtEval": 0.24567863955679864
+    },
+    "103_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.042384895703030945,
+        "ExtEval": 1.042384895703031
+    },
+    "105_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16419717977156065,
+        "ExtEval": 2.1641971797715605
+    },
+    "111_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.013761015662748788,
+        "ExtEval": 1.0137610156627488
+    },
+    "111_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1147864261559638,
+        "ExtEval": 0.1147864261559638
+    },
+    "111_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.11447509122808697,
+        "ExtEval": 1.114475091228087
+    },
+    "111_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15811907244642498,
+        "ExtEval": 0.15811907244642498
+    },
+    "111_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.11180402828176739,
+        "ExtEval": 1.1118040282817674
+    },
+    "111_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17408170295675518,
+        "ExtEval": 1.1740817029567552
+    },
+    "112_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.12112720390515663,
+        "ExtEval": 1.1211272039051567
+    },
+    "112_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3403146423931632,
+        "ExtEval": 3.3403146423931633
+    },
+    "113_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.2693762543775457,
+        "ExtEval": 2.2693762543775455
+    },
+    "113_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.252657645429454,
+        "ExtEval": 1.252657645429454
+    },
+    "113_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2601830825529067,
+        "ExtEval": 1.2601830825529068
+    },
+    "114_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.02338442531860585,
+        "ExtEval": 1.0233844253186057
+    },
+    "114_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.23309644731246715,
+        "ExtEval": 1.2330964473124673
+    },
+    "114_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06343840233845799,
+        "ExtEval": 0.06343840233845799
+    },
+    "118_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19281083878983435,
+        "ExtEval": 1.1928108387898344
+    },
+    "118_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07228344964096323,
+        "ExtEval": 0.07228344964096323
+    },
+    "118_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.010410981505022676,
+        "ExtEval": 1.0104109815050226
+    },
+    "118_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1676339733142716,
+        "ExtEval": 1.1676339733142715
+    },
+    "119_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.43522556126117706,
+        "ExtEval": 1.435225561261177
+    },
+    "119_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.5514225289225578,
+        "ExtEval": 1.5514225289225578
+    },
+    "119_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.4035753682255745,
+        "ExtEval": 1.4035753682255745
+    },
+    "119_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.4035753682255745,
+        "ExtEval": 1.4035753682255745
+    },
+    "119_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.31521127838641405,
+        "ExtEval": 1.315211278386414
+    },
+    "119_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.11884309103091562,
+        "ExtEval": 1.1188430910309157
+    },
+    "119_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.31521127838641405,
+        "ExtEval": 1.315211278386414
+    },
+    "119_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.12834721058607101,
+        "ExtEval": 1.128347210586071
+    },
+    "119_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.08341601739327109,
+        "ExtEval": 1.083416017393271
+    },
+    "124_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.016907820697216414,
+        "ExtEval": 1.0169078206972164
+    },
+    "124_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03843174772519692,
+        "ExtEval": 1.038431747725197
+    },
+    "128_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.32511027916916646,
+        "ExtEval": 1.3251102791691665
+    },
+    "128_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.26764001512977603,
+        "ExtEval": 1.267640015129776
+    },
+    "128_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3251888976956252,
+        "ExtEval": 1.3251888976956252
+    },
+    "128_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0010649020065708337,
+        "ExtEval": 0.0010649020065708337
+    },
+    "128_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.002129571910093886,
+        "ExtEval": 1.002129571910094
+    },
+    "128_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.07620737180695869,
+        "ExtEval": 1.0762073718069587
+    },
+    "130_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.5905114762703999,
+        "ExtEval": 2.5905114762704
+    },
+    "132_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.2647050215378649,
+        "ExtEval": 1.264705021537865
+    },
+    "137_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15196750605440076,
+        "ExtEval": 1.1519675060544008
+    },
+    "137_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1478961052431259,
+        "ExtEval": 1.147896105243126
+    },
+    "137_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.18563629994750952,
+        "ExtEval": 1.1856362999475096
+    },
+    "137_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.024664119171211474,
+        "ExtEval": 1.0246641191712116
+    },
+    "137_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.06645767419249748,
+        "ExtEval": 2.0664576741924976
+    },
+    "137_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06907036375293202,
+        "ExtEval": 0.06907036375293202
+    },
+    "137_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20643477113335396,
+        "ExtEval": 1.2064347711333538
+    },
+    "137_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0907293759655052,
+        "ExtEval": 2.090729375965505
+    },
+    "137_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06497887493460441,
+        "ExtEval": 1.0649788749346043
+    },
+    "138_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03386083641686499,
+        "ExtEval": 1.0338608364168649
+    },
+    "138_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.17226917024415273,
+        "ExtEval": 2.1722691702441526
+    },
+    "138_refresh": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.35427148709407985,
+        "ExtEval": 1.35427148709408
+    },
+    "138_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.5165986222429917,
+        "ExtEval": 1.5165986222429917
+    },
+    "139_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.17572054980943597,
+        "ExtEval": 2.175720549809436
+    },
+    "140_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.21269073202792144,
+        "ExtEval": 2.212690732027921
+    },
+    "143_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.40802517782517334,
+        "ExtEval": 1.4080251778251733
+    },
+    "143_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15372999758390649,
+        "ExtEval": 0.15372999758390649
+    },
+    "143_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.34428375215200646,
+        "ExtEval": 1.3442837521520064
+    },
+    "143_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0696287577437168,
+        "ExtEval": 1.069628757743717
+    },
+    "143_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.17278980959586243,
+        "ExtEval": 1.1727898095958624
+    },
+    "143_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08518958340950866,
+        "ExtEval": 1.0851895834095087
+    },
+    "143_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.35642263542481323,
+        "ExtEval": 1.3564226354248132
+    },
+    "143_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03990560800216536,
+        "ExtEval": 1.0399056080021654
+    },
+    "144_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.11289986755166737,
+        "ExtEval": 1.1128998675516675
+    },
+    "144_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1332392373255321,
+        "ExtEval": 2.1332392373255322
+    },
+    "144_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.13229432489190784,
+        "ExtEval": 1.132294324891908
+    },
+    "144_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.22916008744921001,
+        "ExtEval": 0.22916008744921001
+    },
+    "147_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20482434602551314,
+        "ExtEval": 0.20482434602551314
+    },
+    "147_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.05931240574864205,
+        "ExtEval": 1.059312405748642
+    },
+    "147_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.38492457838826033,
+        "ExtEval": 1.3849245783882602
+    },
+    "147_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1674981690642502,
+        "ExtEval": 0.1674981690642502
+    },
+    "147_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2963921909831697,
+        "ExtEval": 1.2963921909831697
+    },
+    "149_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0402231328189373,
+        "ExtEval": 1.0402231328189373
+    },
+    "149_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1225380736092726,
+        "ExtEval": 1.1225380736092725
+    },
+    "149_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09594021613399184,
+        "ExtEval": 1.0959402161339917
+    },
+    "149_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.6275062176088492,
+        "ExtEval": 1.627506217608849
+    },
+    "149_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.019111276914676067,
+        "ExtEval": 1.0191112769146762
+    },
+    "15_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.23984624861429138,
+        "ExtEval": 1.2398462486142914
+    },
+    "15_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.24186992564549048,
+        "ExtEval": 2.2418699256454904
+    },
+    "15_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0907306108002861,
+        "ExtEval": 1.090730610800286
+    },
+    "15_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1564892919734121,
+        "ExtEval": 1.1564892919734122
+    },
+    "15_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2423883867139618,
+        "ExtEval": 0.2423883867139618
+    },
+    "15_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.7289982228850325,
+        "ExtEval": 2.7289982228850325
+    },
+    "152_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.35072054023005284,
+        "ExtEval": 1.3507205402300528
+    },
+    "154_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.30043748761950567,
+        "ExtEval": 0.30043748761950567
+    },
+    "154_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.28294395651160315,
+        "ExtEval": 0.28294395651160315
+    },
+    "154_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2975575699978931,
+        "ExtEval": 0.2975575699978931
+    },
+    "154_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1423820176895595,
+        "ExtEval": 1.1423820176895596
+    },
+    "154_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06312508073593065,
+        "ExtEval": 0.06312508073593065
+    },
+    "155_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.003636998683214182,
+        "ExtEval": 0.003636998683214182
+    },
+    "155_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.14738146952877287,
+        "ExtEval": 1.147381469528773
+    },
+    "157_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.13362150265727124,
+        "ExtEval": 1.1336215026572711
+    },
+    "157_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17998102308359065,
+        "ExtEval": 1.1799810230835908
+    },
+    "157_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.02320325334897333,
+        "ExtEval": 1.0232032533489734
+    },
+    "161_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3068094857700282,
+        "ExtEval": 2.306809485770028
+    },
+    "161_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.28522788189619663,
+        "ExtEval": 0.28522788189619663
+    },
+    "161_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3214966939571737,
+        "ExtEval": 0.3214966939571737
+    },
+    "161_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1867259664251116,
+        "ExtEval": 0.1867259664251116
+    },
+    "161_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23860431663960105,
+        "ExtEval": 0.23860431663960105
+    },
+    "161_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3215748004114368,
+        "ExtEval": 1.3215748004114367
+    },
+    "161_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2922488992688048,
+        "ExtEval": 0.2922488992688048
+    },
+    "161_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2795024628560482,
+        "ExtEval": 0.2795024628560482
+    },
+    "161_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19506133252324423,
+        "ExtEval": 1.1950613325232442
+    },
+    "164_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2381786619706403,
+        "ExtEval": 1.2381786619706403
+    },
+    "166_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.11268903924523055,
+        "ExtEval": 0.11268903924523055
+    },
+    "166_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3752591429295502,
+        "ExtEval": 2.37525914292955
+    },
+    "166_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16052611849132792,
+        "ExtEval": 0.16052611849132792
+    },
+    "166_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.34165925464454905,
+        "ExtEval": 1.341659254644549
+    },
+    "166_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3771171786529185,
+        "ExtEval": 2.3771171786529184
+    },
+    "166_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09852053322268783,
+        "ExtEval": 1.098520533222688
+    },
+    "166_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17230298301998392,
+        "ExtEval": 0.17230298301998392
+    },
+    "167_heter_graph": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07560029011840619,
+        "ExtEval": 1.0756002901184063
+    },
+    "167_matchsumm": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.26755720051936804,
+        "ExtEval": 2.2675572005193683
+    },
+    "167_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.10549557495241368,
+        "ExtEval": 3.1054955749524136
+    },
+    "167_neusumm": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.024816835851718955,
+        "ExtEval": 2.024816835851719
+    },
+    "167_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.41351461900398134,
+        "ExtEval": 1.4135146190039813
+    },
+    "167_oracle_disco": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.2214265663808328,
+        "ExtEval": 3.221426566380833
+    },
+    "167_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03243723629042505,
+        "ExtEval": 1.032437236290425
+    },
+    "167_rnn_ext_rl": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20767020458355545,
+        "ExtEval": 1.2076702045835555
+    },
+    "168_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.25416116287669865,
+        "ExtEval": 0.25416116287669865
+    },
+    "168_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.28346783649612917,
+        "ExtEval": 1.2834678364961292
+    },
+    "168_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.27583289061294636,
+        "ExtEval": 2.2758328906129464
+    },
+    "168_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19473416229448048,
+        "ExtEval": 1.1947341622944805
+    },
+    "168_textrank": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09593085487479885,
+        "ExtEval": 2.095930854874799
+    },
+    "168_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1612722262434545,
+        "ExtEval": 1.1612722262434545
+    },
+    "17_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16491255988366904,
+        "ExtEval": 0.16491255988366904
+    },
+    "17_matchsumm": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3509960721091678,
+        "ExtEval": 1.3509960721091678
+    },
+    "17_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.24440070320852103,
+        "ExtEval": 1.244400703208521
+    },
+    "17_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.04084167829714713,
+        "ExtEval": 1.0408416782971472
+    },
+    "17_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3771813451467703,
+        "ExtEval": 1.3771813451467703
+    },
+    "17_textrank": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23219516766257586,
+        "ExtEval": 1.2321951676625758
+    },
+    "17_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2242481542595973,
+        "ExtEval": 0.2242481542595973
+    },
+    "170_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14266474451869726,
+        "ExtEval": 0.14266474451869726
+    },
+    "170_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.014612581115216017,
+        "ExtEval": 0.014612581115216017
+    },
+    "171_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.31482753781495953,
+        "ExtEval": 1.3148275378149594
+    },
+    "171_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.5825251254242506,
+        "ExtEval": 1.5825251254242505
+    },
+    "171_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1763364089331872,
+        "ExtEval": 1.1763364089331871
+    },
+    "171_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.37040825812040234,
+        "ExtEval": 1.3704082581204022
+    },
+    "171_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3996346704961704,
+        "ExtEval": 1.3996346704961704
+    },
+    "171_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.24431724691715895,
+        "ExtEval": 0.24431724691715895
+    },
+    "171_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.026766137558628222,
+        "ExtEval": 0.026766137558628222
+    },
+    "171_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.12056820899703202,
+        "ExtEval": 1.1205682089970321
+    },
+    "171_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3982825093271183,
+        "ExtEval": 1.3982825093271183
+    },
+    "171_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.38445922859528125,
+        "ExtEval": 1.3844592285952813
+    },
+    "171_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.21005221508764377,
+        "ExtEval": 1.2100522150876438
+    },
+    "171_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15914013798553212,
+        "ExtEval": 1.1591401379855322
+    },
+    "171_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08805408952651883,
+        "ExtEval": 1.0880540895265187
+    },
+    "173_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.026706691831350327,
+        "ExtEval": 1.0267066918313503
+    },
+    "173_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08045879627267516,
+        "ExtEval": 0.08045879627267516
+    },
+    "174_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.10309442898202781,
+        "ExtEval": 2.1030944289820277
+    },
+    "174_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3272242248258408,
+        "ExtEval": 1.3272242248258408
+    },
+    "174_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23215262097134348,
+        "ExtEval": 1.2321526209713434
+    },
+    "174_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3796281814775284,
+        "ExtEval": 1.3796281814775284
+    },
+    "174_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.5068074166974839,
+        "ExtEval": 2.506807416697484
+    },
+    "174_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.5046019852361496,
+        "ExtEval": 2.5046019852361496
+    },
+    "174_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.004928716235857167,
+        "ExtEval": 2.0049287162358573
+    },
+    "174_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.06703892370630149,
+        "ExtEval": 3.0670389237063014
+    },
+    "177_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4604932864141376,
+        "ExtEval": 0.4604932864141376
+    },
+    "177_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.22608519933643179,
+        "ExtEval": 0.22608519933643179
+    },
+    "177_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.13131626947851588,
+        "ExtEval": 0.13131626947851588
+    },
+    "177_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.45784535604597737,
+        "ExtEval": 0.45784535604597737
+    },
+    "177_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0850415154881119,
+        "ExtEval": 1.085041515488112
+    },
+    "177_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4464729316943051,
+        "ExtEval": 0.4464729316943051
+    },
+    "177_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.12021999810270084,
+        "ExtEval": 0.12021999810270084
+    },
+    "177_oracle_disco": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.118030654850792,
+        "ExtEval": 2.118030654850792
+    },
+    "177_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.46115387328348173,
+        "ExtEval": 0.46115387328348173
+    },
+    "177_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.26901926096149675,
+        "ExtEval": 1.2690192609614968
+    },
+    "177_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.12588098773490997,
+        "ExtEval": 0.12588098773490997
+    },
+    "177_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08938692372981816,
+        "ExtEval": 0.08938692372981816
+    },
+    "177_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17505978788801424,
+        "ExtEval": 0.17505978788801424
+    },
+    "177_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15290872996914773,
+        "ExtEval": 2.152908729969148
+    },
+    "178_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07394231710765908,
+        "ExtEval": 0.07394231710765908
+    },
+    "181_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3452967090808925,
+        "ExtEval": 2.3452967090808925
+    },
+    "181_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4639620327890091,
+        "ExtEval": 1.463962032789009
+    },
+    "181_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1524853580830447,
+        "ExtEval": 2.1524853580830445
+    },
+    "181_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.03149148757853382,
+        "ExtEval": 2.031491487578534
+    },
+    "189_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.03984275063029835,
+        "ExtEval": 2.0398427506302985
+    },
+    "189_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.107528344897286,
+        "ExtEval": 2.107528344897286
+    },
+    "189_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.44086299532554457,
+        "ExtEval": 1.4408629953255445
+    },
+    "189_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16418339427090595,
+        "ExtEval": 0.16418339427090595
+    },
+    "189_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.22456867688796828,
+        "ExtEval": 1.2245686768879682
+    },
+    "191_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03122620889917016,
+        "ExtEval": 0.03122620889917016
+    },
+    "191_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.041397543468823045,
+        "ExtEval": 0.041397543468823045
+    },
+    "191_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.037669022226085286,
+        "ExtEval": 1.0376690222260854
+    },
+    "191_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09791752214853963,
+        "ExtEval": 1.0979175221485395
+    },
+    "192_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.18311293135532955,
+        "ExtEval": 1.1831129313553295
+    },
+    "192_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3228557032562094,
+        "ExtEval": 1.3228557032562094
+    },
+    "192_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.32101041432179045,
+        "ExtEval": 2.3210104143217904
+    },
+    "192_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2567966066756829,
+        "ExtEval": 1.2567966066756828
+    },
+    "192_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.06589569444865145,
+        "ExtEval": 3.0658956944486513
+    },
+    "196_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.05322798161068931,
+        "ExtEval": 1.0532279816106893
+    },
+    "196_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.38347097305813804,
+        "ExtEval": 2.383470973058138
+    },
+    "196_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0899813380674459,
+        "ExtEval": 1.089981338067446
+    },
+    "196_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.003813695841624054,
+        "ExtEval": 1.003813695841624
+    },
+    "197_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3641768492137392,
+        "ExtEval": 1.3641768492137392
+    },
+    "197_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3849569600696365,
+        "ExtEval": 2.3849569600696365
+    },
+    "197_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.36684726892660063,
+        "ExtEval": 1.3668472689266007
+    },
+    "197_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06998799710224074,
+        "ExtEval": 1.0699879971022408
+    },
+    "197_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.039802538172807544,
+        "ExtEval": 1.0398025381728075
+    },
+    "197_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2250008660679062,
+        "ExtEval": 1.2250008660679061
+    },
+    "197_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1394162851696213,
+        "ExtEval": 2.1394162851696215
+    },
+    "197_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.033810917249259886,
+        "ExtEval": 0.033810917249259886
+    },
+    "197_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.034826401582298216,
+        "ExtEval": 1.0348264015822983
+    },
+    "197_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03953286689162877,
+        "ExtEval": 1.0395328668916288
+    },
+    "197_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.22437532401333254,
+        "ExtEval": 1.2243753240133326
+    },
+    "197_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0976176333303253,
+        "ExtEval": 1.0976176333303254
+    },
+    "197_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.04780643278112018,
+        "ExtEval": 1.0478064327811203
+    },
+    "198_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.01611585690019035,
+        "ExtEval": 1.0161158569001905
+    },
+    "198_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19338760439616937,
+        "ExtEval": 2.1933876043961695
+    },
+    "198_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.017369342812647404,
+        "ExtEval": 2.0173693428126476
+    },
+    "198_rnn_ext_rl": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.050974945382525505,
+        "ExtEval": 2.0509749453825257
+    },
+    "2_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07357511862452765,
+        "ExtEval": 0.07357511862452765
+    },
+    "2_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1518777241872158,
+        "ExtEval": 0.1518777241872158
+    },
+    "2_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.039427375353019045,
+        "ExtEval": 1.039427375353019
+    },
+    "2_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.05140533988014795,
+        "ExtEval": 1.051405339880148
+    },
+    "2_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.028068043844541535,
+        "ExtEval": 1.0280680438445415
+    },
+    "2_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.007049103024958925,
+        "ExtEval": 1.0070491030249589
+    },
+    "2_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03029906246229075,
+        "ExtEval": 1.0302990624622907
+    },
+    "2_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0015866960651085837,
+        "ExtEval": 1.0015866960651085
+    },
+    "200_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15158878169521423,
+        "ExtEval": 1.1515887816952142
+    },
+    "200_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1404817944442454,
+        "ExtEval": 2.1404817944442454
+    },
+    "200_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3398000593518927,
+        "ExtEval": 1.3398000593518926
+    },
+    "206_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3967753065129121,
+        "ExtEval": 1.396775306512912
+    },
+    "206_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.5938506983220577,
+        "ExtEval": 1.5938506983220577
+    },
+    "206_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3965944050384375,
+        "ExtEval": 2.3965944050384373
+    },
+    "206_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3645055703818798,
+        "ExtEval": 0.3645055703818798
+    },
+    "206_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19828234985470772,
+        "ExtEval": 1.1982823498547077
+    },
+    "206_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19040749346216523,
+        "ExtEval": 1.1904074934621653
+    },
+    "206_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.30693449328343075,
+        "ExtEval": 1.3069344932834308
+    },
+    "206_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.32533712312579155,
+        "ExtEval": 0.32533712312579155
+    },
+    "206_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14920123045643174,
+        "ExtEval": 0.14920123045643174
+    },
+    "206_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19731827452778816,
+        "ExtEval": 1.1973182745277882
+    },
+    "206_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19145685310165084,
+        "ExtEval": 2.1914568531016507
+    },
+    "206_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.19909833744168282,
+        "ExtEval": 1.1990983374416828
+    },
+    "206_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19978215172886848,
+        "ExtEval": 0.19978215172886848
+    },
+    "207_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3663577960396652,
+        "ExtEval": 0.3663577960396652
+    },
+    "207_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.45640695152299793,
+        "ExtEval": 0.45640695152299793
+    },
+    "207_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.6846754119324032,
+        "ExtEval": 0.6846754119324032
+    },
+    "207_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.6862688175460789,
+        "ExtEval": 0.6862688175460789
+    },
+    "207_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.7178634485753719,
+        "ExtEval": 0.7178634485753719
+    },
+    "207_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3877910682058428,
+        "ExtEval": 0.3877910682058428
+    },
+    "207_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.43788718093613477,
+        "ExtEval": 0.43788718093613477
+    },
+    "207_oracle": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.2759605436682856,
+        "ExtEval": 3.2759605436682855
+    },
+    "207_oracle_disco": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.016609692490116346,
+        "ExtEval": 3.0166096924901162
+    },
+    "207_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.6862688175460789,
+        "ExtEval": 0.6862688175460789
+    },
+    "207_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4912436044833157,
+        "ExtEval": 1.4912436044833157
+    },
+    "207_textrank": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.6659159544991174,
+        "ExtEval": 2.6659159544991176
+    },
+    "207_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.659330053710922,
+        "ExtEval": 2.659330053710922
+    },
+    "210_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.33069712948054075,
+        "ExtEval": 1.3306971294805408
+    },
+    "210_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.35549048613756895,
+        "ExtEval": 2.355490486137569
+    },
+    "210_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03904814304163062,
+        "ExtEval": 2.0390481430416307
+    },
+    "212_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.14127079926991082,
+        "ExtEval": 2.1412707992699107
+    },
+    "212_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.07669968043185127,
+        "ExtEval": 2.0766996804318514
+    },
+    "212_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14440182805161125,
+        "ExtEval": 1.1444018280516113
+    },
+    "213_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.43253738142933196,
+        "ExtEval": 1.432537381429332
+    },
+    "213_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2863113311359484,
+        "ExtEval": 1.2863113311359484
+    },
+    "213_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.28768098378471524,
+        "ExtEval": 1.2876809837847152
+    },
+    "213_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.28310466807912843,
+        "ExtEval": 1.2831046680791285
+    },
+    "213_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.6003459357489191,
+        "ExtEval": 2.600345935748919
+    },
+    "213_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2814214798381727,
+        "ExtEval": 2.2814214798381727
+    },
+    "216_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09552434086799622,
+        "ExtEval": 1.0955243408679962
+    },
+    "216_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0334248046080271,
+        "ExtEval": 1.033424804608027
+    },
+    "216_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03277099132537842,
+        "ExtEval": 1.0327709913253784
+    },
+    "216_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1164851188659668,
+        "ExtEval": 1.1164851188659668
+    },
+    "216_oracle_disco": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.10856480399767554,
+        "ExtEval": 3.1085648039976754
+    },
+    "216_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08790197968482971,
+        "ExtEval": 1.0879019796848297
+    },
+    "219_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3103765152394772,
+        "ExtEval": 0.3103765152394772
+    },
+    "219_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0928805932402611,
+        "ExtEval": 0.0928805932402611
+    },
+    "219_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.31942027118057015,
+        "ExtEval": 1.31942027118057
+    },
+    "221_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20352348911061807,
+        "ExtEval": 0.20352348911061807
+    },
+    "221_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.40956206336704776,
+        "ExtEval": 0.40956206336704776
+    },
+    "221_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.25625884889692924,
+        "ExtEval": 1.2562588488969293
+    },
+    "221_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.255051287257326,
+        "ExtEval": 2.255051287257326
+    },
+    "221_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.14852628497707582,
+        "ExtEval": 1.1485262849770759
+    },
+    "223_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.010724514979215005,
+        "ExtEval": 0.010724514979215005
+    },
+    "223_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1318538846988564,
+        "ExtEval": 0.1318538846988564
+    },
+    "223_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.30299717658947756,
+        "ExtEval": 1.3029971765894777
+    },
+    "223_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.31315585448534144,
+        "ExtEval": 1.3131558544853414
+    },
+    "227_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.01820441103094103,
+        "ExtEval": 0.01820441103094103
+    },
+    "227_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.046712370128564856,
+        "ExtEval": 0.046712370128564856
+    },
+    "227_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.05221492967393715,
+        "ExtEval": 0.05221492967393715
+    },
+    "227_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0019547310609293045,
+        "ExtEval": 0.0019547310609293045
+    },
+    "227_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06159579956147354,
+        "ExtEval": 1.0615957995614735
+    },
+    "227_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.046712370128564856,
+        "ExtEval": 0.046712370128564856
+    },
+    "227_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0019547310609293045,
+        "ExtEval": 0.0019547310609293045
+    },
+    "228_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3353637184164571,
+        "ExtEval": 1.335363718416457
+    },
+    "228_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.06525239933663135,
+        "ExtEval": 1.0652523993366314
+    },
+    "228_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.20978606332474475,
+        "ExtEval": 1.2097860633247448
+    },
+    "228_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.06317753132051701,
+        "ExtEval": 1.063177531320517
+    },
+    "229_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1680645867527346,
+        "ExtEval": 2.1680645867527346
+    },
+    "229_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.26073488027759595,
+        "ExtEval": 1.260734880277596
+    },
+    "229_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4644381788214863,
+        "ExtEval": 1.4644381788214864
+    },
+    "229_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14704045452769304,
+        "ExtEval": 1.147040454527693
+    },
+    "230_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.13659951992061303,
+        "ExtEval": 1.1365995199206131
+    },
+    "230_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03360056472592987,
+        "ExtEval": 0.03360056472592987
+    },
+    "231_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16762317502793544,
+        "ExtEval": 0.16762317502793544
+    },
+    "231_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16675213261740285,
+        "ExtEval": 2.166752132617403
+    },
+    "231_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1663494436373003,
+        "ExtEval": 0.1663494436373003
+    },
+    "231_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1663494436373003,
+        "ExtEval": 0.1663494436373003
+    },
+    "231_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16529690508342665,
+        "ExtEval": 0.16529690508342665
+    },
+    "231_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06512170319057387,
+        "ExtEval": 0.06512170319057387
+    },
+    "231_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1674873261083849,
+        "ExtEval": 0.1674873261083849
+    },
+    "231_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16551226659910756,
+        "ExtEval": 0.16551226659910756
+    },
+    "231_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.08324455932481212,
+        "ExtEval": 1.0832445593248121
+    },
+    "231_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16626238111949843,
+        "ExtEval": 0.16626238111949843
+    },
+    "231_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0651216833223589,
+        "ExtEval": 0.0651216833223589
+    },
+    "231_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0693313408324806,
+        "ExtEval": 0.0693313408324806
+    },
+    "231_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06645003243582326,
+        "ExtEval": 0.06645003243582326
+    },
+    "231_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1318462611804716,
+        "ExtEval": 1.1318462611804716
+    },
+    "231_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.013995531045366105,
+        "ExtEval": 0.013995531045366105
+    },
+    "232_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09293749086957959,
+        "ExtEval": 0.09293749086957959
+    },
+    "232_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2997194643110215,
+        "ExtEval": 0.2997194643110215
+    },
+    "232_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3055775975475886,
+        "ExtEval": 0.3055775975475886
+    },
+    "233_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.043336244950478386,
+        "ExtEval": 0.043336244950478386
+    },
+    "233_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.04280096024788993,
+        "ExtEval": 0.04280096024788993
+    },
+    "233_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3760933708695423,
+        "ExtEval": 0.3760933708695423
+    },
+    "233_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.45440920507389815,
+        "ExtEval": 1.4544092050738981
+    },
+    "233_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06242264239166012,
+        "ExtEval": 1.06242264239166
+    },
+    "233_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3765091530032805,
+        "ExtEval": 0.3765091530032805
+    },
+    "233_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07274064170342176,
+        "ExtEval": 1.0727406417034218
+    },
+    "233_refresh": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.24749383545665,
+        "ExtEval": 1.24749383545665
+    },
+    "233_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0720030342243263,
+        "ExtEval": 1.0720030342243263
+    },
+    "235_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.027424629507798004,
+        "ExtEval": 1.027424629507798
+    },
+    "235_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.005739558758002472,
+        "ExtEval": 1.0057395587580025
+    },
+    "235_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3569252724233648,
+        "ExtEval": 1.3569252724233647
+    },
+    "235_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.011467959461945343,
+        "ExtEval": 1.0114679594619453
+    },
+    "235_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.4043085013611496,
+        "ExtEval": 2.4043085013611494
+    },
+    "235_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.18748013341312553,
+        "ExtEval": 1.1874801334131255
+    },
+    "235_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0974328800820689,
+        "ExtEval": 1.097432880082069
+    },
+    "235_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1116509850041687,
+        "ExtEval": 0.1116509850041687
+    },
+    "235_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1116509850041687,
+        "ExtEval": 0.1116509850041687
+    },
+    "236_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1173995756774578,
+        "ExtEval": 2.117399575677458
+    },
+    "27_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.28368901021101256,
+        "ExtEval": 2.2836890102110123
+    },
+    "27_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.38467278026721696,
+        "ExtEval": 0.38467278026721696
+    },
+    "27_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2818265750326894,
+        "ExtEval": 1.2818265750326894
+    },
+    "33_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.005845059469963082,
+        "ExtEval": 3.005845059469963
+    },
+    "33_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1448719919659197,
+        "ExtEval": 1.1448719919659198
+    },
+    "33_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14751991340890525,
+        "ExtEval": 1.1475199134089054
+    },
+    "33_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0549847577698529,
+        "ExtEval": 2.054984757769853
+    },
+    "33_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.08557377982263764,
+        "ExtEval": 2.0855737798226377
+    },
+    "35_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0013473972678184065,
+        "ExtEval": 1.0013473972678184
+    },
+    "35_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.10751727670431133,
+        "ExtEval": 1.1075172767043113
+    },
+    "39_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.11308859706332441,
+        "ExtEval": 2.1130885970633244
+    },
+    "39_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2617734322702745,
+        "ExtEval": 1.2617734322702745
+    },
+    "40_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1320049197335417,
+        "ExtEval": 1.1320049197335418
+    },
+    "40_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03508517250884324,
+        "ExtEval": 1.0350851725088432
+    },
+    "40_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03508517250884324,
+        "ExtEval": 1.0350851725088432
+    },
+    "48_oracle": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.11960015102074695,
+        "ExtEval": 3.119600151020747
+    },
+    "48_oracle_disco": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.25734419031785083,
+        "ExtEval": 3.257344190317851
+    },
+    "48_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0039043088371937262,
+        "ExtEval": 3.0039043088371935
+    },
+    "48_textrank": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0039043287054086884,
+        "ExtEval": 3.0039043287054086
+    },
+    "48_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.2581036130969341,
+        "ExtEval": 2.2581036130969343
+    },
+    "5_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.18793163407180047,
+        "ExtEval": 0.18793163407180047
+    },
+    "50_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09169838608229638,
+        "ExtEval": 1.0916983860822964
+    },
+    "50_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.05987153233016013,
+        "ExtEval": 1.0598715323301602
+    },
+    "51_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.050210634586759506,
+        "ExtEval": 1.0502106345867595
+    },
+    "51_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.38252723406260025,
+        "ExtEval": 0.38252723406260025
+    },
+    "51_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3232219008406481,
+        "ExtEval": 0.3232219008406481
+    },
+    "51_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08379118178541273,
+        "ExtEval": 0.08379118178541273
+    },
+    "51_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.002362654884704052,
+        "ExtEval": 2.002362654884704
+    },
+    "51_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.11469334836314932,
+        "ExtEval": 2.1146933483631494
+    },
+    "51_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0956457796184203,
+        "ExtEval": 0.0956457796184203
+    },
+    "51_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.318652047495095,
+        "ExtEval": 1.3186520474950951
+    },
+    "51_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.38434744280992816,
+        "ExtEval": 0.38434744280992816
+    },
+    "51_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.010747344573386608,
+        "ExtEval": 1.0107473445733866
+    },
+    "51_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.36677875904402196,
+        "ExtEval": 0.36677875904402196
+    },
+    "56_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.10939999971653153,
+        "ExtEval": 1.1093999997165316
+    },
+    "56_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3890696123626345,
+        "ExtEval": 1.3890696123626345
+    },
+    "56_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15574386103585236,
+        "ExtEval": 0.15574386103585236
+    },
+    "56_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4263849099628268,
+        "ExtEval": 1.4263849099628267
+    },
+    "56_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.10947995934749771,
+        "ExtEval": 1.1094799593474978
+    },
+    "56_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15604150800540917,
+        "ExtEval": 1.1560415080054092
+    },
+    "56_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.45287086699043577,
+        "ExtEval": 2.4528708669904358
+    },
+    "56_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3890696123626345,
+        "ExtEval": 1.3890696123626345
+    },
+    "58_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.07731840014457703,
+        "ExtEval": 1.077318400144577
+    },
+    "60_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3328157683213552,
+        "ExtEval": 1.332815768321355
+    },
+    "60_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3476785838603973,
+        "ExtEval": 1.3476785838603973
+    },
+    "60_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3321254273255666,
+        "ExtEval": 2.3321254273255665
+    },
+    "60_refresh": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14176707516113918,
+        "ExtEval": 2.1417670751611393
+    },
+    "60_rnn_ext_rl": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1247404076159,
+        "ExtEval": 2.1247404076159
+    },
+    "60_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16035922567049654,
+        "ExtEval": 2.1603592256704967
+    },
+    "60_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0763086845477422,
+        "ExtEval": 1.076308684547742
+    },
+    "62_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1104809045791626,
+        "ExtEval": 1.1104809045791626
+    },
+    "62_oracle_disco": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.18367922119796276,
+        "ExtEval": 2.1836792211979628
+    },
+    "64_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.41008966822992077,
+        "ExtEval": 2.410089668229921
+    },
+    "64_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.002825920925048797,
+        "ExtEval": 1.0028259209250487
+    },
+    "64_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16930403850371173,
+        "ExtEval": 2.1693040385037117
+    },
+    "64_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.22712252529551427,
+        "ExtEval": 2.2271225252955142
+    },
+    "64_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.088645638305267,
+        "ExtEval": 0.088645638305267
+    },
+    "64_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08420172390857866,
+        "ExtEval": 0.08420172390857866
+    },
+    "64_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15064392996428067,
+        "ExtEval": 0.15064392996428067
+    },
+    "64_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0031489189995529965,
+        "ExtEval": 2.003148918999553
+    },
+    "64_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16340206060073492,
+        "ExtEval": 1.163402060600735
+    },
+    "66_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.18289555838564409,
+        "ExtEval": 0.18289555838564409
+    },
+    "66_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19470200668632365,
+        "ExtEval": 0.19470200668632365
+    },
+    "66_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06915219357470048,
+        "ExtEval": 0.06915219357470048
+    },
+    "66_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.013981131406035296,
+        "ExtEval": 0.013981131406035296
+    },
+    "66_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.18604960311592245,
+        "ExtEval": 0.18604960311592245
+    },
+    "66_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14554063211738444,
+        "ExtEval": 0.14554063211738444
+    },
+    "66_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.05394824613273763,
+        "ExtEval": 0.05394824613273763
+    },
+    "66_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.11759538719197737,
+        "ExtEval": 0.11759538719197737
+    },
+    "66_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3007623081367153,
+        "ExtEval": 3.3007623081367155
+    },
+    "68_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23389057709331004,
+        "ExtEval": 1.23389057709331
+    },
+    "68_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.013594972968955205,
+        "ExtEval": 1.0135949729689553
+    },
+    "68_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23389057709331004,
+        "ExtEval": 1.23389057709331
+    },
+    "68_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.13992674471228383,
+        "ExtEval": 1.1399267447122838
+    },
+    "68_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.19407225504983217,
+        "ExtEval": 1.1940722550498322
+    },
+    "69_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.23351041184246746,
+        "ExtEval": 1.2335104118424676
+    },
+    "69_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.22868038332995233,
+        "ExtEval": 1.2286803833299524
+    },
+    "69_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.21875638878878412,
+        "ExtEval": 2.2187563887887842
+    },
+    "69_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.23026802516283673,
+        "ExtEval": 1.2302680251628368
+    },
+    "69_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.23684047785678153,
+        "ExtEval": 1.2368404778567816
+    },
+    "69_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.365504734185783,
+        "ExtEval": 0.365504734185783
+    },
+    "70_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3521887354387824,
+        "ExtEval": 0.3521887354387824
+    },
+    "70_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1727564886047427,
+        "ExtEval": 1.1727564886047426
+    },
+    "72_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1395749160983541,
+        "ExtEval": 0.1395749160983541
+    },
+    "72_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4314347143942238,
+        "ExtEval": 1.4314347143942239
+    },
+    "72_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.01408684426739154,
+        "ExtEval": 2.0140868442673914
+    },
+    "72_textrank": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17025411719199235,
+        "ExtEval": 2.1702541171919925
+    },
+    "72_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.05515488081558334,
+        "ExtEval": 2.0551548808155835
+    },
+    "73_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.09436188923427835,
+        "ExtEval": 1.0943618892342784
+    },
+    "73_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.1425954777708588,
+        "ExtEval": 2.142595477770859
+    },
+    "73_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14807986008236185,
+        "ExtEval": 1.1480798600823618
+    },
+    "74_mi_unsup": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.20039039422153387,
+        "ExtEval": 2.2003903942215337
+    },
+    "74_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.04675473481122605,
+        "ExtEval": 2.046754734811226
+    },
+    "74_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16206246955200765,
+        "ExtEval": 1.1620624695520076
+    },
+    "74_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.42227789222900025,
+        "ExtEval": 1.4222778922290003
+    },
+    "74_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.15724948476673217,
+        "ExtEval": 1.1572494847667323
+    },
+    "76_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.23349245506591004,
+        "ExtEval": 1.23349245506591
+    },
+    "76_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03741666059650017,
+        "ExtEval": 0.03741666059650017
+    },
+    "76_heter_graph": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.31476142126387757,
+        "ExtEval": 2.3147614212638774
+    },
+    "76_lead3": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4812876457474582,
+        "ExtEval": 0.4812876457474582
+    },
+    "76_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.178009366770857,
+        "ExtEval": 2.178009366770857
+    },
+    "76_pacsum_bert": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.24820460993117494,
+        "ExtEval": 1.248204609931175
+    },
+    "76_pacsum_tfidf": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.42381196834709645,
+        "ExtEval": 2.4238119683470964
+    },
+    "76_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.058297756321068483,
+        "ExtEval": 2.0582977563210685
+    },
+    "76_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.38203243036114143,
+        "ExtEval": 2.3820324303611415
+    },
+    "76_textrank": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16730394083327454,
+        "ExtEval": 3.1673039408332744
+    },
+    "76_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.16634970527860177,
+        "ExtEval": 2.1663497052786016
+    },
+    "79_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.07894120508232542,
+        "ExtEval": 2.0789412050823253
+    },
+    "79_matchsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0978215542199905,
+        "ExtEval": 2.0978215542199905
+    },
+    "79_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08061187383767295,
+        "ExtEval": 1.0806118738376729
+    },
+    "79_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0978215542199905,
+        "ExtEval": 2.0978215542199905
+    },
+    "79_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07013370138641524,
+        "ExtEval": 1.0701337013864152
+    },
+    "79_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.08061187383767295,
+        "ExtEval": 1.0806118738376729
+    },
+    "79_textrank_st": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.26142422223104705,
+        "ExtEval": 3.261424222231047
+    },
+    "8_banditsumm": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23471117208981396,
+        "ExtEval": 1.2347111720898138
+    },
+    "8_bert_lstm_pn_rl": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.22692831546648226,
+        "ExtEval": 1.2269283154664823
+    },
+    "8_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20058105997394016,
+        "ExtEval": 1.2005810599739402
+    },
+    "8_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.25705209777183957,
+        "ExtEval": 2.2570520977718393
+    },
+    "8_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.05898357318227154,
+        "ExtEval": 2.0589835731822714
+    },
+    "8_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17287740719467892,
+        "ExtEval": 0.17287740719467892
+    },
+    "8_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15828536313921704,
+        "ExtEval": 1.1582853631392172
+    },
+    "8_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.03865643374503408,
+        "ExtEval": 1.0386564337450341
+    },
+    "81_lead3": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2432079950445577,
+        "ExtEval": 1.2432079950445578
+    },
+    "81_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.10267982984844004,
+        "ExtEval": 0.10267982984844004
+    },
+    "81_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3818713847645804,
+        "ExtEval": 0.3818713847645804
+    },
+    "81_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.10243074203792368,
+        "ExtEval": 1.1024307420379236
+    },
+    "81_pacsum_bert": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2432079950445577,
+        "ExtEval": 1.2432079950445578
+    },
+    "81_pacsum_tfidf": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.10177503134074961,
+        "ExtEval": 0.10177503134074961
+    },
+    "81_refresh": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.18649910782512868,
+        "ExtEval": 1.1864991078251288
+    },
+    "81_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1025306592907822,
+        "ExtEval": 0.1025306592907822
+    },
+    "81_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.10262362266841685,
+        "ExtEval": 2.1026236226684167
+    },
+    "82_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3385858208021091,
+        "ExtEval": 2.338585820802109
+    },
+    "82_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.2652232603250013,
+        "ExtEval": 2.2652232603250013
+    },
+    "88_banditsumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.11850957934075268,
+        "ExtEval": 1.1185095793407527
+    },
+    "88_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.031075414161023218,
+        "ExtEval": 1.0310754141610232
+    },
+    "88_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.49208007205015747,
+        "ExtEval": 1.4920800720501575
+    },
+    "88_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.36062893819325836,
+        "ExtEval": 1.3606289381932584
+    },
+    "88_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.24127226023362403,
+        "ExtEval": 1.241272260233624
+    },
+    "89_oracle": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.12495382051149916,
+        "ExtEval": 2.1249538205114993
+    },
+    "89_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.14621824878434253,
+        "ExtEval": 2.1462182487843426
+    },
+    "89_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.16062509999444174,
+        "ExtEval": 1.1606250999944416
+    },
+    "89_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.05431539331108243,
+        "ExtEval": 2.0543153933110823
+    },
+    "89_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.09664424522946188,
+        "ExtEval": 2.096644245229462
+    },
+    "92_bert_lstm_pn_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.03630066042145097,
+        "ExtEval": 2.036300660421451
+    },
+    "92_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.024293481061855915,
+        "ExtEval": 1.0242934810618558
+    },
+    "92_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.5372830020884672,
+        "ExtEval": 2.537283002088467
+    },
+    "93_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1553377906481425,
+        "ExtEval": 1.1553377906481426
+    },
+    "93_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09731329480806983,
+        "ExtEval": 1.0973132948080697
+    },
+    "93_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.12346608191728592,
+        "ExtEval": 1.123466081917286
+    },
+    "93_rnn_ext_rl": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20303711978097755,
+        "ExtEval": 1.2030371197809775
+    },
+    "93_textrank": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06510797888040543,
+        "ExtEval": 0.06510797888040543
+    },
+    "93_textrank_st": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1553377906481425,
+        "ExtEval": 1.1553377906481426
+    },
+    "94_mi_unsup": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.09921508479314833,
+        "ExtEval": 0.09921508479314833
+    },
+    "94_neusumm": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.24978185189000657,
+        "ExtEval": 0.24978185189000657
+    },
+    "94_oracle": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.13877289004890225,
+        "ExtEval": 1.1387728900489023
+    },
+    "94_oracle_disco": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.58962223251927,
+        "ExtEval": 1.58962223251927
+    },
+    "94_refresh": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.25301758937271335,
+        "ExtEval": 2.253017589372713
+    },
+    "1_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06609417262694078,
+        "ExtEval": 1.0660941726269408
+    },
+    "103_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.04548084280557102,
+        "ExtEval": 1.045480842805571
+    },
+    "105_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.07381100055880822,
+        "ExtEval": 0.07381100055880822
+    },
+    "111_histruct": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.17998771859129192,
+        "ExtEval": 2.179987718591292
+    },
+    "119_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.3847923129796982,
+        "ExtEval": 1.3847923129796982
+    },
+    "143_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.17516552500806193,
+        "ExtEval": 1.175165525008062
+    },
+    "166_histruct": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.0656437436528331,
+        "ExtEval": 1.0656437436528332
+    },
+    "167_histruct": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.2925916190631688,
+        "ExtEval": 2.2925916190631686
+    },
+    "17_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.4029129653509396,
+        "ExtEval": 1.4029129653509396
+    },
+    "171_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.15914013798553212,
+        "ExtEval": 1.1591401379855322
+    },
+    "173_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.06254591916998231,
+        "ExtEval": 1.0625459191699824
+    },
+    "197_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.35926772623012465,
+        "ExtEval": 1.3592677262301247
+    },
+    "198_histruct": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.3000726343598217,
+        "ExtEval": 2.3000726343598217
+    },
+    "200_histruct": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.00896121214498724,
+        "ExtEval": 1.0089612121449871
+    },
+    "206_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.0720371467371782,
+        "ExtEval": 1.0720371467371783
+    },
+    "207_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.6862688175460789,
+        "ExtEval": 0.6862688175460789
+    },
+    "218_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1321535257791931,
+        "ExtEval": 0.1321535257791931
+    },
+    "219_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23539745832482978,
+        "ExtEval": 0.23539745832482978
+    },
+    "221_histruct": {
+        "IncorCorefEval": 1,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.23561511896696177,
+        "ExtEval": 2.2356151189669617
+    },
+    "233_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.12264911072804041,
+        "ExtEval": 2.1226491107280405
+    },
+    "235_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.00565355670617218,
+        "ExtEval": 1.0056535567061722
+    },
+    "35_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1510162010788918,
+        "ExtEval": 0.1510162010788918
+    },
+    "51_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.14735284776617893,
+        "ExtEval": 1.147352847766179
+    },
+    "54_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1714568517338007,
+        "ExtEval": 0.1714568517338007
+    },
+    "60_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.048841304580370504,
+        "ExtEval": 1.0488413045803706
+    },
+    "64_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.42135173740971366,
+        "ExtEval": 1.4213517374097138
+    },
+    "79_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 1,
+        "SentiBias": 0.09315526504118073,
+        "ExtEval": 1.0931552650411807
+    },
+    "81_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.1024706771499232,
+        "ExtEval": 0.1024706771499232
+    },
+    "82_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 1,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.20438196212853654,
+        "ExtEval": 1.2043819621285365
+    },
+    "93_histruct": {
+        "IncorCorefEval": 0,
+        "IncomCorefEval": 0,
+        "IncomDiscoEval": 0,
+        "SentiBias": 0.054895199835300446,
+        "ExtEval": 0.054895199835300446
+    }
+}

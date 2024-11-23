@@ -7,9 +7,8 @@ from nltk import sent_tokenize
 from allennlp.predictors.predictor import Predictor
 
 predictor = Predictor.from_path(
-    "https://storage.googleapis.com/allennlp-public-models/stanford-sentiment-treebank-roberta.2021-03-11.tar.gz",
-    cuda_device=-1)
-
+"https://storage.googleapis.com/allennlp-public-models/stanford-sentiment-treebank-roberta.2021-03-11.tar.gz",
+ cuda_device=-1) # change to cuda_device=0 if you have a GPU and you got all the necessary libraries installed
 
 def preprocess(document, summary):
     all_document_sents = document.lower().replace('"', "").replace("`", "").replace("''", "").replace('-', '').replace(

@@ -12,7 +12,7 @@ tokenizer = PunktSentenceTokenizer(punkt_param)
 
 predictor = Predictor.from_path(
     "https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2021.03.10.tar.gz",
-    cuda_device=-1)
+    cuda_device=-1) # change to cuda_device=0 if you have a GPU and you got all the necessary libraries installed
 
 colors = ["#FF0000", "#00FFFF", "#0000FF",  "#800080",
           "#F5CE00", "#00FF00", "#FF00FF", "#FFC0CB", "#FFA500", "#A52A2A", "#800000", "#008000",
