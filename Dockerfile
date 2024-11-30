@@ -11,12 +11,16 @@ RUN pip install torch==1.12.1 \
     nltk \
     allennlp-models \
     jupyterlab \
-    openai
+    openai \
+    matplotlib
 
 # copy the current directory contents into the container at /app
 COPY data /app/data
 COPY exteval /app/exteval
-COPY exteval-corrector.ipynb /app
+COPY exteval-corrector-research.ipynb /app
+COPY exteval-modified-corrector-research.ipynb /app
+COPY reserach-results.ipynb /app
+COPY resumable_train.sh /app
 
 # copy root and stage for caches
 COPY root /root

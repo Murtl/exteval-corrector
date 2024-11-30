@@ -1,36 +1,4 @@
 {
-    "0_neusumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.07061501783900892,
-            "doc_avg_sentiment": 0.6347842197341379,
-            "summary_avg_sentiment": 0.7053992375731468,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.9926256537437439,
-                    "document_avg_sentiment": 0.6347842197341379
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9239406585693359,
-                    "document_avg_sentiment": 0.6347842197341379
-                }
-            ]
-        },
-        "ExtEval": 0.07061501783900892
-    },
     "0_oracle_disco": {
         "IncorCorefEval": {
             "count": 0,
@@ -107,38 +75,6 @@
             ]
         },
         "ExtEval": 0.13125428241716386
-    },
-    "0_rnn_ext_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.032716495863860495,
-            "doc_avg_sentiment": 0.6347842197341379,
-            "summary_avg_sentiment": 0.6020677238702774,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.9320869445800781,
-                    "document_avg_sentiment": 0.6347842197341379
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.3776979148387909,
-                    "document_avg_sentiment": 0.6347842197341379
-                }
-            ]
-        },
-        "ExtEval": 0.032716495863860495
     },
     "0_textrank": {
         "IncorCorefEval": {
@@ -2090,43 +2026,6 @@
         },
         "ExtEval": 1.3251888976956252
     },
-    "128_pacsum_tfidf": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.0010649020065708337,
-            "doc_avg_sentiment": 0.66777078047744,
-            "summary_avg_sentiment": 0.6688356824840108,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.008731790818274021,
-                    "document_avg_sentiment": 0.66777078047744
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9992160797119141,
-                    "document_avg_sentiment": 0.66777078047744
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.9985591769218445,
-                    "document_avg_sentiment": 0.66777078047744
-                }
-            ]
-        },
-        "ExtEval": 0.0010649020065708337
-    },
     "128_refresh": {
         "IncorCorefEval": {
             "count": 0,
@@ -3586,38 +3485,6 @@
         },
         "ExtEval": 1.3849245783882602
     },
-    "147_pacsum_bert": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.1674981690642502,
-            "doc_avg_sentiment": 0.5340197605692083,
-            "summary_avg_sentiment": 0.7015179296334585,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.8823443055152893,
-                    "document_avg_sentiment": 0.5340197605692083
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.8000316023826599,
-                    "document_avg_sentiment": 0.5340197605692083
-                }
-            ]
-        },
-        "ExtEval": 0.1674981690642502
-    },
     "147_textrank_st": {
         "IncorCorefEval": {
             "count": 0,
@@ -4318,27 +4185,6 @@
         },
         "ExtEval": 0.06312508073593065
     },
-    "155_heter_graph": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.003636998683214182,
-            "doc_avg_sentiment": 0.2213754527270794,
-            "summary_avg_sentiment": 0.22501245141029358,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.003636998683214182
-    },
     "155_oracle_disco": {
         "IncorCorefEval": {
             "count": 0,
@@ -4596,43 +4442,6 @@
             ]
         },
         "ExtEval": 0.28522788189619663
-    },
-    "161_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3214966939571737,
-            "doc_avg_sentiment": 0.3961590424455194,
-            "summary_avg_sentiment": 0.07466234848834574,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.07611629366874695,
-                    "document_avg_sentiment": 0.3961590424455194
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.14696460962295532,
-                    "document_avg_sentiment": 0.3961590424455194
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.0009061421733349562,
-                    "document_avg_sentiment": 0.3961590424455194
-                }
-            ]
-        },
-        "ExtEval": 0.3214966939571737
     },
     "161_neusumm": {
         "IncorCorefEval": {
@@ -5779,43 +5588,6 @@
         },
         "ExtEval": 0.25416116287669865
     },
-    "168_mi_unsup": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 0,
-                    "discourse_marker": "the"
-                }
-            ]
-        },
-        "SentiBias": {
-            "absolute_difference": 0.28346783649612917,
-            "doc_avg_sentiment": 0.295034314149234,
-            "summary_avg_sentiment": 0.011566477653104812,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.02214333601295948,
-                    "document_avg_sentiment": 0.295034314149234
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.0009896192932501435,
-                    "document_avg_sentiment": 0.295034314149234
-                }
-            ]
-        },
-        "ExtEval": 1.2834678364961292
-    },
     "168_oracle_disco": {
         "IncorCorefEval": {
             "count": 0,
@@ -5885,50 +5657,6 @@
             ]
         },
         "ExtEval": 2.2758328906129464
-    },
-    "168_pacsum_bert": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 2,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "the",
-                        "penalty"
-                    ],
-                    "missing_antecedent": "[2]"
-                },
-                {
-                    "summary_sentence": 2,
-                    "mention": [
-                        "the",
-                        "commission"
-                    ],
-                    "missing_antecedent": "[0]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.19473416229448048,
-            "doc_avg_sentiment": 0.295034314149234,
-            "summary_avg_sentiment": 0.1003001518547535,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.02627190202474594,
-                    "document_avg_sentiment": 0.295034314149234
-                }
-            ]
-        },
-        "ExtEval": 1.1947341622944805
     },
     "168_textrank": {
         "IncorCorefEval": {
@@ -6055,119 +5783,6 @@
             ]
         },
         "ExtEval": 1.1612722262434545
-    },
-    "17_bert_lstm_pn_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.16491255988366904,
-            "doc_avg_sentiment": 0.4220945097971708,
-            "summary_avg_sentiment": 0.25718194991350174,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.16377834975719452,
-                    "document_avg_sentiment": 0.4220945097971708
-                }
-            ]
-        },
-        "ExtEval": 0.16491255988366904
-    },
-    "17_matchsumm": {
-        "IncorCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 0,
-                    "mention": [
-                        "the",
-                        "school"
-                    ],
-                    "conflicting_mappings": [
-                        "[9]",
-                        "[1]"
-                    ]
-                }
-            ]
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3509960721091678,
-            "doc_avg_sentiment": 0.4220945097971708,
-            "summary_avg_sentiment": 0.07109843768800299,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.18844659626483917,
-                    "document_avg_sentiment": 0.4220945097971708
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.002471801359206438,
-                    "document_avg_sentiment": 0.4220945097971708
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.02237691543996334,
-                    "document_avg_sentiment": 0.4220945097971708
-                }
-            ]
-        },
-        "ExtEval": 1.3509960721091678
-    },
-    "17_mi_unsup": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 0,
-                    "discourse_marker": "university"
-                }
-            ]
-        },
-        "SentiBias": {
-            "absolute_difference": 0.24440070320852103,
-            "doc_avg_sentiment": 0.4220945097971708,
-            "summary_avg_sentiment": 0.17769380658864975,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.12798933684825897,
-                    "document_avg_sentiment": 0.4220945097971708
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.05450653284788132,
-                    "document_avg_sentiment": 0.4220945097971708
-                }
-            ]
-        },
-        "ExtEval": 1.244400703208521
     },
     "17_oracle_disco": {
         "IncorCorefEval": {
@@ -6298,38 +5913,6 @@
             ]
         },
         "ExtEval": 1.2321951676625758
-    },
-    "17_textrank_st": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.2242481542595973,
-            "doc_avg_sentiment": 0.4220945097971708,
-            "summary_avg_sentiment": 0.1978463555375735,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.18844659626483917,
-                    "document_avg_sentiment": 0.4220945097971708
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.05450653284788132,
-                    "document_avg_sentiment": 0.4220945097971708
-                }
-            ]
-        },
-        "ExtEval": 0.2242481542595973
     },
     "170_oracle_disco": {
         "IncorCorefEval": {
@@ -7444,48 +7027,6 @@
         },
         "ExtEval": 0.4604932864141376
     },
-    "177_bert_lstm_pn_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.22608519933643179,
-            "doc_avg_sentiment": 0.5154171636117658,
-            "summary_avg_sentiment": 0.28933196427533403,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.11277050524950027,
-                    "document_avg_sentiment": 0.5154171636117658
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9925557971000671,
-                    "document_avg_sentiment": 0.5154171636117658
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.003043122822418809,
-                    "document_avg_sentiment": 0.5154171636117658
-                },
-                {
-                    "sentence_index": 3,
-                    "summary_sentiment": 0.0489584319293499,
-                    "document_avg_sentiment": 0.5154171636117658
-                }
-            ]
-        },
-        "ExtEval": 0.22608519933643179
-    },
     "177_heter_graph": {
         "IncorCorefEval": {
             "count": 0,
@@ -7522,43 +7063,6 @@
             ]
         },
         "ExtEval": 0.13131626947851588
-    },
-    "177_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.45784535604597737,
-            "doc_avg_sentiment": 0.5154171636117658,
-            "summary_avg_sentiment": 0.057571807565788426,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.11078821867704391,
-                    "document_avg_sentiment": 0.5154171636117658
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.012968671508133411,
-                    "document_avg_sentiment": 0.5154171636117658
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.04895853251218796,
-                    "document_avg_sentiment": 0.5154171636117658
-                }
-            ]
-        },
-        "ExtEval": 0.45784535604597737
     },
     "177_mi_unsup": {
         "IncorCorefEval": {
@@ -8003,38 +7507,6 @@
             ]
         },
         "ExtEval": 2.152908729969148
-    },
-    "178_oracle": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.07394231710765908,
-            "doc_avg_sentiment": 0.3863723348435347,
-            "summary_avg_sentiment": 0.4603146519511938,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.035774629563093185,
-                    "document_avg_sentiment": 0.3863723348435347
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.8848546743392944,
-                    "document_avg_sentiment": 0.3863723348435347
-                }
-            ]
-        },
-        "ExtEval": 0.07394231710765908
     },
     "181_banditsumm": {
         "IncorCorefEval": {
@@ -9927,27 +9399,6 @@
         },
         "ExtEval": 2.0509749453825257
     },
-    "2_banditsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.07357511862452765,
-            "doc_avg_sentiment": 0.3476138418482151,
-            "summary_avg_sentiment": 0.42118896047274273,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.07357511862452765
-    },
     "2_matchsumm": {
         "IncorCorefEval": {
             "count": 0,
@@ -10000,32 +9451,6 @@
             "significant_deviations": []
         },
         "ExtEval": 1.039427375353019
-    },
-    "2_oracle": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "discourse_marker": "but"
-                }
-            ]
-        },
-        "SentiBias": {
-            "absolute_difference": 0.05140533988014795,
-            "doc_avg_sentiment": 0.3476138418482151,
-            "summary_avg_sentiment": 0.39901918172836304,
-            "significant_deviations": []
-        },
-        "ExtEval": 1.051405339880148
     },
     "2_oracle_disco": {
         "IncorCorefEval": {
@@ -10124,32 +9549,6 @@
             ]
         },
         "ExtEval": 1.0302990624622907
-    },
-    "2_textrank_st": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 2,
-                    "discourse_marker": "but"
-                }
-            ]
-        },
-        "SentiBias": {
-            "absolute_difference": 0.0015866960651085837,
-            "doc_avg_sentiment": 0.3476138418482151,
-            "summary_avg_sentiment": 0.3460271457831065,
-            "significant_deviations": []
-        },
-        "ExtEval": 1.0015866960651085
     },
     "200_oracle": {
         "IncorCorefEval": {
@@ -10332,110 +9731,6 @@
         },
         "ExtEval": 1.3398000593518926
     },
-    "206_banditsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "the",
-                        "character",
-                        "of",
-                        "rex",
-                        "manning",
-                        ",",
-                        "played",
-                        "by",
-                        "the",
-                        "very",
-                        "dreamy",
-                        "maxwell",
-                        "caulfield"
-                    ],
-                    "missing_antecedent": "[1]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3967753065129121,
-            "doc_avg_sentiment": 0.7999054007232189,
-            "summary_avg_sentiment": 0.4031300942103068,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.22726620733737946,
-                    "document_avg_sentiment": 0.7999054007232189
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.14647631347179413,
-                    "document_avg_sentiment": 0.7999054007232189
-                }
-            ]
-        },
-        "ExtEval": 1.396775306512912
-    },
-    "206_bert_lstm_pn_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "the",
-                        "character",
-                        "of",
-                        "rex",
-                        "manning",
-                        ",",
-                        "played",
-                        "by",
-                        "the",
-                        "very",
-                        "dreamy",
-                        "maxwell",
-                        "caulfield"
-                    ],
-                    "missing_antecedent": "[1]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.5938506983220577,
-            "doc_avg_sentiment": 0.7999054007232189,
-            "summary_avg_sentiment": 0.2060547024011612,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.14401432871818542,
-                    "document_avg_sentiment": 0.7999054007232189
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.26809507608413696,
-                    "document_avg_sentiment": 0.7999054007232189
-                }
-            ]
-        },
-        "ExtEval": 1.5938506983220577
-    },
     "206_heter_graph": {
         "IncorCorefEval": {
             "count": 0,
@@ -10481,33 +9776,6 @@
             ]
         },
         "ExtEval": 2.3965944050384373
-    },
-    "206_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3645055703818798,
-            "doc_avg_sentiment": 0.7999054007232189,
-            "summary_avg_sentiment": 0.4353998303413391,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.15404504537582397,
-                    "document_avg_sentiment": 0.7999054007232189
-                }
-            ]
-        },
-        "ExtEval": 0.3645055703818798
     },
     "206_matchsumm": {
         "IncorCorefEval": {
@@ -10560,85 +9828,6 @@
             "significant_deviations": []
         },
         "ExtEval": 1.1904074934621653
-    },
-    "206_neusumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "the",
-                        "character",
-                        "of",
-                        "rex",
-                        "manning",
-                        ",",
-                        "played",
-                        "by",
-                        "the",
-                        "very",
-                        "dreamy",
-                        "maxwell",
-                        "caulfield"
-                    ],
-                    "missing_antecedent": "[1]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.30693449328343075,
-            "doc_avg_sentiment": 0.7999054007232189,
-            "summary_avg_sentiment": 0.49297090743978816,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.43553778529167175,
-                    "document_avg_sentiment": 0.7999054007232189
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.044510047882795334,
-                    "document_avg_sentiment": 0.7999054007232189
-                }
-            ]
-        },
-        "ExtEval": 1.3069344932834308
-    },
-    "206_oracle": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.32533712312579155,
-            "doc_avg_sentiment": 0.7999054007232189,
-            "summary_avg_sentiment": 0.47456827759742737,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.15404504537582397,
-                    "document_avg_sentiment": 0.7999054007232189
-                }
-            ]
-        },
-        "ExtEval": 0.32533712312579155
     },
     "206_pacsum_bert": {
         "IncorCorefEval": {
@@ -10825,238 +10014,6 @@
             ]
         },
         "ExtEval": 0.3663577960396652
-    },
-    "207_bert_lstm_pn_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.45640695152299793,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.26719438086729497,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.005078046582639217,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.002962276805192232,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.10015100985765457,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 3,
-                    "summary_sentiment": 0.9605861902236938,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.45640695152299793
-    },
-    "207_heter_graph": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.6846754119324032,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.03892592045788964,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.008884387090802193,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.1022595465183258,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.005633827764540911,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.6846754119324032
-    },
-    "207_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.6862688175460789,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.037332514844213925,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.008884387090802193,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.0029622965957969427,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.10015086084604263,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.6862688175460789
-    },
-    "207_matchsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.7178634485753719,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.0057378838149209814,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.008884387090802193,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.0026954365894198418,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.005633827764540911,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.7178634485753719
-    },
-    "207_mi_unsup": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3877910682058428,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.3358102641844501,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.005078013055026531,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.0029622965957969427,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.9993904829025269,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.3877910682058428
-    },
-    "207_neusumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.43788718093613477,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.2857141514541581,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.007754326332360506,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.11200281232595444,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.9794932007789612,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 3,
-                    "summary_sentiment": 0.043606266379356384,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.43788718093613477
     },
     "207_oracle": {
         "IncorCorefEval": {
@@ -11709,83 +10666,6 @@
         },
         "ExtEval": 2.0766996804318514
     },
-    "212_rnn_ext_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 2,
-                    "mention": [
-                        "the",
-                        "country",
-                        "'s"
-                    ],
-                    "missing_antecedent": "[1]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.14440182805161125,
-            "doc_avg_sentiment": 0.3542602461834793,
-            "summary_avg_sentiment": 0.20985841813186804,
-            "significant_deviations": [
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.008171724155545235,
-                    "document_avg_sentiment": 0.3542602461834793
-                }
-            ]
-        },
-        "ExtEval": 1.1444018280516113
-    },
-    "213_banditsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "he"
-                    ],
-                    "type": "ambiguous_pronoun"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.43253738142933196,
-            "doc_avg_sentiment": 0.6073027876445849,
-            "summary_avg_sentiment": 0.17476540621525297,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.0006279494846239686,
-                    "document_avg_sentiment": 0.6073027876445849
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.0003266730345785618,
-                    "document_avg_sentiment": 0.6073027876445849
-                }
-            ]
-        },
-        "ExtEval": 1.432537381429332
-    },
     "213_heter_graph": {
         "IncorCorefEval": {
             "count": 0,
@@ -12298,33 +11178,6 @@
         },
         "ExtEval": 1.0879019796848297
     },
-    "219_banditsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3103765152394772,
-            "doc_avg_sentiment": 0.6076571509242058,
-            "summary_avg_sentiment": 0.2972806356847286,
-            "significant_deviations": [
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.06142740696668625,
-                    "document_avg_sentiment": 0.6076571509242058
-                }
-            ]
-        },
-        "ExtEval": 0.3103765152394772
-    },
     "219_oracle": {
         "IncorCorefEval": {
             "count": 0,
@@ -12413,81 +11266,6 @@
             ]
         },
         "ExtEval": 0.20352348911061807
-    },
-    "221_neusumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.40956206336704776,
-            "doc_avg_sentiment": 0.2568432932190869,
-            "summary_avg_sentiment": 0.6664053565861346,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.0006368060712702572,
-                    "document_avg_sentiment": 0.2568432932190869
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9992884397506714,
-                    "document_avg_sentiment": 0.2568432932190869
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.9992908239364624,
-                    "document_avg_sentiment": 0.2568432932190869
-                }
-            ]
-        },
-        "ExtEval": 0.40956206336704776
-    },
-    "221_oracle": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 0,
-                    "mention": [
-                        "the",
-                        "use",
-                        "by",
-                        "date"
-                    ],
-                    "missing_antecedent": "[6]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.25625884889692924,
-            "doc_avg_sentiment": 0.2568432932190869,
-            "summary_avg_sentiment": 0.0005844443221576512,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.0005844443221576512,
-                    "document_avg_sentiment": 0.2568432932190869
-                }
-            ]
-        },
-        "ExtEval": 1.2562588488969293
     },
     "221_oracle_disco": {
         "IncorCorefEval": {
@@ -12748,113 +11526,6 @@
         },
         "ExtEval": 1.3131558544853414
     },
-    "227_banditsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.01820441103094103,
-            "doc_avg_sentiment": 0.2618266103527276,
-            "summary_avg_sentiment": 0.24362219932178655,
-            "significant_deviations": [
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.01725967414677143,
-                    "document_avg_sentiment": 0.2618266103527276
-                }
-            ]
-        },
-        "ExtEval": 0.01820441103094103
-    },
-    "227_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.046712370128564856,
-            "doc_avg_sentiment": 0.2618266103527276,
-            "summary_avg_sentiment": 0.21511424022416273,
-            "significant_deviations": [
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.017259640619158745,
-                    "document_avg_sentiment": 0.2618266103527276
-                }
-            ]
-        },
-        "ExtEval": 0.046712370128564856
-    },
-    "227_matchsumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.05221492967393715,
-            "doc_avg_sentiment": 0.2618266103527276,
-            "summary_avg_sentiment": 0.31404154002666473,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.05221492967393715
-    },
-    "227_neusumm": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.0019547310609293045,
-            "doc_avg_sentiment": 0.2618266103527276,
-            "summary_avg_sentiment": 0.2637813414136569,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.6313857436180115,
-                    "document_avg_sentiment": 0.2618266103527276
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.011977501213550568,
-                    "document_avg_sentiment": 0.2618266103527276
-                }
-            ]
-        },
-        "ExtEval": 0.0019547310609293045
-    },
     "227_oracle": {
         "IncorCorefEval": {
             "count": 0,
@@ -12894,65 +11565,6 @@
             "significant_deviations": []
         },
         "ExtEval": 1.0615957995614735
-    },
-    "227_pacsum_bert": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.046712370128564856,
-            "doc_avg_sentiment": 0.2618266103527276,
-            "summary_avg_sentiment": 0.21511424022416273,
-            "significant_deviations": [
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.017259640619158745,
-                    "document_avg_sentiment": 0.2618266103527276
-                }
-            ]
-        },
-        "ExtEval": 0.046712370128564856
-    },
-    "227_refresh": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.0019547310609293045,
-            "doc_avg_sentiment": 0.2618266103527276,
-            "summary_avg_sentiment": 0.2637813414136569,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.6313857436180115,
-                    "document_avg_sentiment": 0.2618266103527276
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.011977501213550568,
-                    "document_avg_sentiment": 0.2618266103527276
-                }
-            ]
-        },
-        "ExtEval": 0.0019547310609293045
     },
     "228_mi_unsup": {
         "IncorCorefEval": {
@@ -13197,70 +11809,6 @@
         },
         "ExtEval": 1.260734880277596
     },
-    "229_pacsum_tfidf": {
-        "IncorCorefEval": {
-            "count": 3,
-            "details": [
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "the",
-                        "nation"
-                    ],
-                    "conflicting_mappings": [
-                        "[2]",
-                        "[3]"
-                    ]
-                },
-                {
-                    "summary_sentence": 1,
-                    "mention": [
-                        "its"
-                    ],
-                    "conflicting_mappings": [
-                        "[2]",
-                        "[3]"
-                    ]
-                },
-                {
-                    "summary_sentence": 2,
-                    "mention": [
-                        "israel"
-                    ],
-                    "conflicting_mappings": [
-                        "[2]",
-                        "[3]"
-                    ]
-                }
-            ]
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.4644381788214863,
-            "doc_avg_sentiment": 0.18878761499217944,
-            "summary_avg_sentiment": 0.6532257938136657,
-            "significant_deviations": [
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9415899515151978,
-                    "document_avg_sentiment": 0.18878761499217944
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.9982241988182068,
-                    "document_avg_sentiment": 0.18878761499217944
-                }
-            ]
-        },
-        "ExtEval": 1.4644381788214864
-    },
     "229_textrank": {
         "IncorCorefEval": {
             "count": 0,
@@ -13502,27 +12050,6 @@
         },
         "ExtEval": 0.16529690508342665
     },
-    "231_mi_unsup": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.06512170319057387,
-            "doc_avg_sentiment": 0.8318172366986982,
-            "summary_avg_sentiment": 0.8969389398892721,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.06512170319057387
-    },
     "231_neusumm": {
         "IncorCorefEval": {
             "count": 0,
@@ -13660,27 +12187,6 @@
         },
         "ExtEval": 0.0693313408324806
     },
-    "231_rnn_ext_rl": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.06645003243582326,
-            "doc_avg_sentiment": 0.8318172366986982,
-            "summary_avg_sentiment": 0.8982672691345215,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.06645003243582326
-    },
     "231_textrank": {
         "IncorCorefEval": {
             "count": 0,
@@ -13739,33 +12245,6 @@
         },
         "ExtEval": 0.013995531045366105
     },
-    "232_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.09293749086957959,
-            "doc_avg_sentiment": 0.6928318823089025,
-            "summary_avg_sentiment": 0.7857693731784821,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.9876633286476135,
-                    "document_avg_sentiment": 0.6928318823089025
-                }
-            ]
-        },
-        "ExtEval": 0.09293749086957959
-    },
     "232_matchsumm": {
         "IncorCorefEval": {
             "count": 0,
@@ -13802,38 +12281,6 @@
             ]
         },
         "ExtEval": 0.2997194643110215
-    },
-    "232_textrank_st": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.3055775975475886,
-            "doc_avg_sentiment": 0.6928318823089025,
-            "summary_avg_sentiment": 0.9984094798564911,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.9977460503578186,
-                    "document_avg_sentiment": 0.6928318823089025
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9990729093551636,
-                    "document_avg_sentiment": 0.6928318823089025
-                }
-            ]
-        },
-        "ExtEval": 0.3055775975475886
     },
     "233_banditsumm": {
         "IncorCorefEval": {
@@ -14335,37 +12782,6 @@
             ]
         },
         "ExtEval": 1.3569252724233647
-    },
-    "235_oracle": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 0,
-                    "mention": [
-                        "the",
-                        "puzzling",
-                        "problem"
-                    ],
-                    "missing_antecedent": "[1]"
-                }
-            ]
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.011467959461945343,
-            "doc_avg_sentiment": 0.28917184126542206,
-            "summary_avg_sentiment": 0.3006398007273674,
-            "significant_deviations": []
-        },
-        "ExtEval": 1.0114679594619453
     },
     "235_oracle_disco": {
         "IncorCorefEval": {
@@ -16251,43 +14667,6 @@
             ]
         },
         "ExtEval": 1.3890696123626345
-    },
-    "56_lead3": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.15574386103585236,
-            "doc_avg_sentiment": 0.5192738956845316,
-            "summary_avg_sentiment": 0.675017756720384,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.9997182488441467,
-                    "document_avg_sentiment": 0.5192738956845316
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.9996519088745117,
-                    "document_avg_sentiment": 0.5192738956845316
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.02568311244249344,
-                    "document_avg_sentiment": 0.5192738956845316
-                }
-            ]
-        },
-        "ExtEval": 0.15574386103585236
     },
     "56_matchsumm": {
         "IncorCorefEval": {
@@ -20284,32 +18663,6 @@
         },
         "ExtEval": 0.3818713847645804
     },
-    "81_oracle_disco": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 1,
-            "details": [
-                {
-                    "summary_sentence": 0,
-                    "discourse_marker": "people"
-                }
-            ]
-        },
-        "SentiBias": {
-            "absolute_difference": 0.10243074203792368,
-            "doc_avg_sentiment": 0.8971063682907506,
-            "summary_avg_sentiment": 0.9995371103286743,
-            "significant_deviations": []
-        },
-        "ExtEval": 1.1024307420379236
-    },
     "81_pacsum_bert": {
         "IncorCorefEval": {
             "count": 1,
@@ -21730,27 +20083,6 @@
         },
         "ExtEval": 1.045480842805571
     },
-    "105_histruct": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.07381100055880822,
-            "doc_avg_sentiment": 0.16483401158516894,
-            "summary_avg_sentiment": 0.09102301102636072,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.07381100055880822
-    },
     "111_histruct": {
         "IncorCorefEval": {
             "count": 1,
@@ -22311,43 +20643,6 @@
         },
         "ExtEval": 1.0720371467371783
     },
-    "207_histruct": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.6862688175460789,
-            "doc_avg_sentiment": 0.7236013323902929,
-            "summary_avg_sentiment": 0.037332514844213925,
-            "significant_deviations": [
-                {
-                    "sentence_index": 0,
-                    "summary_sentiment": 0.0029622965957969427,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 1,
-                    "summary_sentiment": 0.008884387090802193,
-                    "document_avg_sentiment": 0.7236013323902929
-                },
-                {
-                    "sentence_index": 2,
-                    "summary_sentiment": 0.10015086084604263,
-                    "document_avg_sentiment": 0.7236013323902929
-                }
-            ]
-        },
-        "ExtEval": 0.6862688175460789
-    },
     "218_histruct": {
         "IncorCorefEval": {
             "count": 0,
@@ -22780,27 +21075,6 @@
             "significant_deviations": []
         },
         "ExtEval": 1.0931552650411807
-    },
-    "81_histruct": {
-        "IncorCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomCorefEval": {
-            "count": 0,
-            "details": []
-        },
-        "IncomDiscoEval": {
-            "count": 0,
-            "details": []
-        },
-        "SentiBias": {
-            "absolute_difference": 0.1024706771499232,
-            "doc_avg_sentiment": 0.8971063682907506,
-            "summary_avg_sentiment": 0.9995770454406738,
-            "significant_deviations": []
-        },
-        "ExtEval": 0.1024706771499232
     },
     "82_histruct": {
         "IncorCorefEval": {

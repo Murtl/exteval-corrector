@@ -312,9 +312,9 @@ def exteval(data, batch_size=32):
     all_exteval = {}
     for key in tqdm(data):
         example = data[key]
-        assert "document_for_annotation" in example and "summary_for_annotation" in example
+        assert "document_for_annotation" in example and "corrected_extractive_summary_for_annotation" in example
         document_for_annotation = example["document_for_annotation"]
-        summary_for_annotation = example["summary_for_annotation"]
+        summary_for_annotation = example["corrected_extractive_summary_for_annotation"]
 
         # Get coreference and discourse errors
         coref_disco_results = coref_disco_metric(document_for_annotation, summary_for_annotation)

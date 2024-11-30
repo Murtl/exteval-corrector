@@ -68,6 +68,7 @@ def locate_summaries(document_sents, summary_sents):
             dptr += 1
     return locations, summary_sent_indexes
 
+
 def coref_disco_metric(document, summary):
     # get document and summary sentences
     all_document_sents, document_sents, summary_sents = preprocess(document, summary)
@@ -75,11 +76,7 @@ def coref_disco_metric(document, summary):
     # locate summary sentences in document
     locations, summary_sent_indexes = locate_summaries(document_sents, summary_sents)
 
-    errors = {
-        "IncorCorefEval": {"count": 0, "details": []},  # Incorrect Coreference
-        "IncomCorefEval": {"count": 0, "details": []},  # Incomplete Coreference
-        "IncomDiscoEval": {"count": 0, "details": []},  # Incomplete Discourse
-    }
+    errors = {"IncorCorefEval": 0, "IncomCorefEval": 0, "IncomDiscoEval": 0}
 
     # match coreference
     scorefs, dscorefs, scorefs_map, rev_scorefs_map = {}, {}, {}, {}
@@ -116,12 +113,7 @@ def coref_disco_metric(document, summary):
                     else:
                         # IncorCoref: if the mapping contradicts previously saved mapping
                         if scorefs_map[scoref] != dcoref:
-                            errors["IncorCorefEval"]["count"] += 1
-                            errors["IncorCorefEval"]["details"].append({
-                                "summary_sentence": senti,
-                                "mention": smention,
-                                "conflicting_mappings": (scorefs_map[scoref], dcoref)
-                            })
+                            errors["IncorCorefEval"] += 1
 
                     dcoref, dmention = None, []
                     dptr += 1
@@ -139,23 +131,13 @@ def coref_disco_metric(document, summary):
                                     break
                             # there is an antecedent in the document, and the summary fails to include it
                             if exist_antecedent:
-                                errors["IncomCorefEval"]["count"] += 1
-                                errors["IncomCorefEval"]["details"].append({
-                                    "summary_sentence": senti,
-                                    "mention": smention,
-                                    "missing_antecedent": scorefs_map[scoref]
-                                })
+                                errors["IncomCorefEval"] += 1
 
                     # IncomCoref (only when mention length=1)
                     if len(smention) == 1 and smention[0] in ["he", "she", "him", "her", "his", "they",
                                                               "them", "their", "it", "this", "that", "those",
                                                               "these"]:
-                        errors["IncomCorefEval"]["count"] += 1
-                        errors["IncomCorefEval"]["details"].append({
-                            "summary_sentence": senti,
-                            "mention": smention,
-                            "type": "ambiguous_pronoun"
-                        })
+                        errors["IncomCorefEval"] += 1
 
                 scoref, smention = None, []
                 sptr += 1
@@ -192,22 +174,12 @@ def coref_disco_metric(document, summary):
                                                 break
                                         # there is an antecedent in the document, and the summary fails to include it
                                         if exist_antecedent:
-                                            errors["IncomCorefEval"]["count"] += 1
-                                            errors["IncomCorefEval"]["details"].append({
-                                                "summary_sentence": senti,
-                                                "mention": dmention,
-                                                "missing_antecedent": dcoref
-                                            })
+                                            errors["IncomCorefEval"] += 1
 
                                     # IncomCoref (only when mention length=1)
                                     if len(dmention) == 1 and dmention[0] in ["he", "she", "him", "her", "his", "they",
                                                               "them", "their", "it", "this", "that", "those", "these"]:
-                                        errors["IncomCorefEval"]["count"] += 1
-                                        errors["IncomCorefEval"]["details"].append({
-                                            "summary_sentence": senti,
-                                            "mention": dmention,
-                                            "missing_antecedent": dcoref
-                                        })
+                                        errors["IncomCorefEval"] += 1
                             dcoref, dmention = None, []
                         dptr += 1
                         if dptr >= len(dwords):
@@ -229,127 +201,60 @@ def coref_disco_metric(document, summary):
         if locations[si][1] == 0:  # it starts from the beginning of a sentence
             if plain_words[0] in ["and", "so", "still"]:
                 if (si == 0 and di != 0) or locations[si - 1][0] != di - 1:
-                    errors["IncomDiscoEval"]["count"] += 1
-                    errors["IncomDiscoEval"]["details"].append({
-                        "summary_sentence": senti,
-                        "discourse_marker": plain_words[0]
-                    })
+                    errors["IncomDiscoEval"] += 1
             else:
-                last_discourse_marker = None
                 for key in ["also", "however", "but", "clearly", "meanwhile", "not only", "not just",
                             "on another", "then", "moreover"]:
                     if key in ' '.join(plain_words[:5]):
                         if (si == 0 and di != 0) or locations[si - 1][0] != di - 1:
-                            errors["IncomDiscoEval"]["count"] += 1
-                            errors["IncomDiscoEval"]["details"].append({
-                                "summary_sentence": senti,
-                                "discourse_marker": key
-                            })
+                            errors["IncomDiscoEval"] += 1
                 if "on one" in ' '.join(plain_words[:5]):
                     if si == len(locations) - 1 or locations[si + 1][0] != di + 1:
-                        errors["IncomDiscoEval"]["count"] += 1
-                        errors["IncomDiscoEval"]["details"].append({
-                            "summary_sentence": senti,
-                            "discourse_marker": "on one"
-                        })
+                        errors["IncomDiscoEval"] += 1
         else:  # starts from the middle of a sentence
             if (si == 0 and di != 0) or locations[si - 1][0] != di:
-                errors["IncomDiscoEval"]["count"] += 1
-                errors["IncomDiscoEval"]["details"].append({
-                    "summary_sentence": senti,
-                    "discourse_marker": plain_words[0]
-                })
+                errors["IncomDiscoEval"] += 1
 
     return errors
 
 
-def get_sentiment_details(document, summary, batch_size=32):
-    # Tokenize sentences for sentiment analysis
-    doc_sents = [{"sentence": sent.strip()} for sent in sent_tokenize(document) if sent.strip()]
-    summary_sents = [{"sentence": sent.strip()} for sent in sent_tokenize(summary) if sent.strip()]
-
-    # Analyze document sentiment
-    doc_sentiments = []
-    for j in range(len(doc_sents) // batch_size + 1):
-        batch = doc_sents[j * batch_size:(j + 1) * batch_size]
-        if batch:
+def get_sentiment(document, batch_size=32):
+    # result["probs"][0] is the probability of positive sentiment
+    sents = [{"sentence": sent.strip()} for sent in sent_tokenize(document) if sent.strip()]
+    sentiments = []
+    for j in range(len(sents) // batch_size + 1):
+        batch = sents[j * batch_size:(j + 1) * batch_size]
+        if len(batch):
             results = predictor.predict_batch_json(batch)
-            doc_sentiments.extend([result["probs"][0] for result in results])  # Positive sentiment probability
-
-    # Analyze summary sentiment
-    summary_sentiments = []
-    for j in range(len(summary_sents) // batch_size + 1):
-        batch = summary_sents[j * batch_size:(j + 1) * batch_size]
-        if batch:
-            results = predictor.predict_batch_json(batch)
-            summary_sentiments.extend([result["probs"][0] for result in results])
-
-    # Calculate detailed SentiBias
-    doc_avg_sentiment = np.mean(doc_sentiments) if doc_sentiments else 0.5
-    summary_avg_sentiment = np.mean(summary_sentiments) if summary_sentiments else 0.5
-    absolute_difference = abs(doc_avg_sentiment - summary_avg_sentiment)
-
-    # Identify specific deviations at the sentence level
-    significant_deviations = [
-        {
-            "sentence_index": i,
-            "summary_sentiment": summary_sentiments[i],
-            "document_avg_sentiment": doc_avg_sentiment
-        }
-        for i in range(len(summary_sentiments))
-        if abs(summary_sentiments[i] - doc_avg_sentiment) > 0.2  # Threshold for significant deviation
-    ]
-
-    return {
-        "doc_avg_sentiment": doc_avg_sentiment,
-        "summary_avg_sentiment": summary_avg_sentiment,
-        "absolute_difference": absolute_difference,
-        "significant_deviations": significant_deviations
-    }
+            for result in results:
+                sentiments.append(result["probs"][0])
+    return np.mean(sentiments)
 
 
 def exteval(data, batch_size=32):
     all_exteval = {}
     for key in tqdm(data):
         example = data[key]
-        assert "document_for_annotation" in example and "summary_for_annotation" in example
+        assert "document_for_annotation" in example and "corrected_extractive_summary_for_annotation" in example
         document_for_annotation = example["document_for_annotation"]
-        summary_for_annotation = example["summary_for_annotation"]
-
-        # Get coreference and discourse errors
-        coref_disco_results = coref_disco_metric(document_for_annotation, summary_for_annotation)
-
-        # Calculate detailed sentiment bias
+        summary_for_annotation = example["corrected_extractive_summary_for_annotation"]
+        # get IncorCorefEval, IncomCorefEval, and IncomDiscoEval
+        res = coref_disco_metric(document_for_annotation, summary_for_annotation)
+        # binarize
+        res = {metric: 1 if res[metric] else 0 for metric in res}
+        # get sentiment bias
         document = example["document"]
         summary = example["summary"].replace("<t>", "").replace("</t>", " ")
-        sentiment_details = get_sentiment_details(document, summary, batch_size=batch_size)
-
-        # Combine all metrics
-        results = {
-            "IncorCorefEval": coref_disco_results["IncorCorefEval"],  # Includes count and details
-            "IncomCorefEval": coref_disco_results["IncomCorefEval"],  # Includes count and details
-            "IncomDiscoEval": coref_disco_results["IncomDiscoEval"],  # Includes count and details
-            "SentiBias": {
-                "absolute_difference": sentiment_details["absolute_difference"],
-                "doc_avg_sentiment": sentiment_details["doc_avg_sentiment"],
-                "summary_avg_sentiment": sentiment_details["summary_avg_sentiment"],
-                "significant_deviations": sentiment_details["significant_deviations"]
-            }
-        }
-
-        # Calculate the overall EXTEVAL score
-        exteval_score = (
-            (1 if coref_disco_results["IncorCorefEval"]["count"] > 0 else 0) +
-            (1 if coref_disco_results["IncomCorefEval"]["count"] > 0 else 0) +
-            (1 if coref_disco_results["IncomDiscoEval"]["count"] > 0 else 0) +
-            sentiment_details["absolute_difference"]
-        )
-        results["ExtEval"] = exteval_score
-
-        # Store results for this example
-        all_exteval[key] = results
-
+        doc_sentiment = get_sentiment(document, batch_size=batch_size)
+        summ_sentiment = get_sentiment(summary, batch_size=batch_size)
+        sentibias = abs(doc_sentiment - summ_sentiment)
+        res["SentiBias"] = sentibias
+        # get exteval score
+        exteval = sum([res[metric] for metric in res])
+        res["ExtEval"] = exteval
+        all_exteval[key] = res
     return all_exteval
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
