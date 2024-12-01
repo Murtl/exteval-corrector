@@ -17,14 +17,15 @@ RUN pip install torch==1.12.1 \
 # copy the current directory contents into the container at /app
 COPY data /app/data
 COPY exteval /app/exteval
+COPY results /app/results
 COPY exteval-corrector-research.ipynb /app
 COPY exteval-modified-corrector-research.ipynb /app
 COPY reserach-results.ipynb /app
-COPY resumable_train.sh /app
+# COPY resumable_train.sh /app # after you executed the preprocess or exteval script this makes sense to use for the next docker build & docker run (copy it out of docker before)
 
 # copy root and stage for caches
-COPY root /root
-COPY stage /stage
+# COPY root /root # after you executed the preprocess or exteval script this makes sense to use for the next docker build & docker run (copy it out of docker before)
+# COPY stage /stage # after you executed the preprocess or exteval script this makes sense to use for the next docker build & docker run (copy it out of docker before)
 
 # Expose port 8888 to access Jupyter Lab
 EXPOSE 8888

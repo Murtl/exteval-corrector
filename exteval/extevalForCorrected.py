@@ -244,7 +244,7 @@ def exteval(data, batch_size=32):
         res = {metric: 1 if res[metric] else 0 for metric in res}
         # get sentiment bias
         document = example["document"]
-        summary = example["summary"].replace("<t>", "").replace("</t>", " ")
+        summary = example["corrected_extractive_summary"].replace("<t>", "").replace("</t>", " ")
         doc_sentiment = get_sentiment(document, batch_size=batch_size)
         summ_sentiment = get_sentiment(summary, batch_size=batch_size)
         sentibias = abs(doc_sentiment - summ_sentiment)
