@@ -1,4 +1,4 @@
-Metric,Mean_Exteval_Corr_1,Mean_Exteval_Modif_Corr_2,Median_Exteval_Corr_1,Median_Exteval_Modi_Corr_2,Mean_Difference,Median_Difference
+Metric,Mean_ExtEval,Mean_ExtEval_Modified,Median_ExtEval,Median_ExtEval_Modified,Mean_Difference,Median_Difference
 IncorCorefEval,98.30508474576273,98.30508474576273,100.0,100.0,0.0,0.0
 IncomCorefEval,82.54545454545455,87.9090909090909,100.0,100.0,5.36363636363636,0.0
 IncomDiscoEval,74.45652173913044,85.82427536231883,100.0,100.0,11.367753623188392,0.0
